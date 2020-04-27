@@ -139,7 +139,7 @@ div.newspack-post-subtitle {
 }
 
 /* Makes bylines and dates uppercase */
-span.byline {
+span.byline::first-letter {
     text-transform: capitalize;
 }
 
@@ -192,10 +192,6 @@ time.entry-date.published {
 .newspack-front-page #content a:hover, #content a:focus, #colophon a:hover, #colophon a:focus {
     color: #f5333f !important;
     text-decoration: underline;
-}
-
-.entry .byline {
-    text-transform: capitalize;
 }
 
 .entry .author {
